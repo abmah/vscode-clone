@@ -1,0 +1,150 @@
+.code-body {
+  display: flex;
+  color: #768390;
+}
+
+.Typewriter__wrapper {
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+.Typewriter__wrapper1 {
+  font-family: monospace;
+  font-size: 1.6rem;
+}
+
+.console {
+  font-family: monospace;
+  font-size: 1.6rem;
+  color: #5fb6ff;
+}
+h4 {
+  font-family: monospace;
+  font-size: 1.6rem;
+  color: #768390;
+}
+Typewriter__wrapper11 {
+  font-family: monospace;
+  font-size: 1.6rem;
+  color: #5fb6ff;
+}
+
+.Typewriter__cursor {
+  color: #6cb6ff;
+}
+
+.Typewriter__cursor1 {
+  color: #6cb6ff;
+  font-size: 1.5em;
+  animation: caret 1s infinite step-end;
+}
+.line-index {
+  font-family: monospace;
+  margin-left: 2em;
+  margin-top: 0.25em;
+  margin-right: 2em;
+  color: #adbac7;
+  font-size: 1em;
+}
+.line-index2 {
+  font-family: monospace;
+  color: #5f6976;
+  margin-top: 2px;
+  font-size: 1em;
+}
+
+.second-type {
+  margin-top: 6px;
+}
+
+.line-index1 {
+  font-size: 1.5em;
+  font-family: monospace;
+  margin-left: 2em;
+  margin-top: 0.5em;
+  margin-right: 2em;
+  color: #adbac7;
+}
+
+@keyframes caret {
+  0%,
+  100% {
+    color: transparent;
+  }
+  50% {
+    color: #6cb6ff;
+  }
+}
+
+.color-white {
+  color: #adbac7;
+}
+
+.color-gray {
+  color: #5f6976;
+}
+/*
+
+.wrap{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-family: Consolas,monaco,monospace; ;
+}
+
+
+
+.wrap h1{
+  font-family: Consolas, 'Courier New', monospace;
+  font-size: .9em;
+  border-right: 2px solid #6cb6ff8e;
+  animation: typist 10s steps(56 , end)  , caret 1s infinite step-end;
+  white-space:nowrap;
+  overflow: hidden;
+  margin: 10px 10px 10px 10px;
+  
+}
+
+@keyframes caret{
+  0% , 100% { 
+    border-color: transparent;
+  }
+  50%{
+    border-color: #6CB6FF;
+  }
+}
+
+@keyframes typist{
+  0%{
+    width: 0ch;
+  }
+  20%{
+    width: 0ch;
+  }
+  30%{
+    width: 16ch;
+  }
+  32%{
+    width: 16ch;
+  }
+  40%{
+    width: 16ch;
+  }
+  43%{
+    width: 16ch;
+  }
+  45%{
+    width: 21ch;
+  }
+  50%{
+    width: 21ch;
+  }
+  68%{
+    width: 57ch;
+  }
+  80%{
+    width: 57ch;
+  }
+  90%{
+    width: 0ch;
+  }
+}*/
